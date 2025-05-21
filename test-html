@@ -9,9 +9,15 @@
   "jsnbversion": "v0.1",
   "cells": [
     {
-      "code": "//>html\n<h1>hi</h1>\n",
-      "status": "[1]<br><span style=\"font-size:8px\">3ms<span></span></span>",
-      "output": "\n<h1>hi</h1>\n <br>",
+      "code": "//>html\n<h1 class=\"hi\">hi</h1>\n",
+      "status": "[3]<br><span style=\"font-size:8px\">1ms<span></span></span>",
+      "output": "\n<h1 class=\"hi\">hi</h1>\n <br>",
+      "type": "code"
+    },
+    {
+      "code": "//>css\n.hi{\n  background-color: red;\n}",
+      "status": "[2]<br><span style=\"font-size:8px\">1ms<span></span></span>",
+      "output": "<style>\n.hi{\n  background-color: red;\n}</style> <br>",
       "type": "code"
     }
   ],
