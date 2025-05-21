@@ -19,6 +19,12 @@
       "status": "[2]<br><span style=\"font-size:8px\">1.651s<span></span></span>",
       "output": "",
       "type": "code"
+    },
+    {
+      "code": "console.log(\"No\");",
+      "status": "[3]<br><span style=\"font-size:8px\">1ms<span></span></span>",
+      "output": "",
+      "type": "code"
     }
   ],
   "source": "https://github.com/gopi-suvanam/scribbler",
